@@ -5,7 +5,7 @@ int main()
 {
        int sayi;
     printf("armstrong sayi bulma!!!\n");
-    printf("Bir Sayi Giriniz:",sayi);
+    printf("Bir Sayi Giriniz:");
     scanf("%d",&sayi);
 
     int gecicisayi;
@@ -21,9 +21,7 @@ int main()
      int gecicisayi2;
      gecicisayi2=gecicisayi;
      int toplam=0;
-     int usler;
-     usler=basamak-1;
-     for(usler;usler>=0;usler--)
+     for(int usler=(basamak-1);usler>=0;usler--)
      {
        gecicisayi=gecicisayi2/pow(10,usler);
        toplam+=pow(gecicisayi,basamak);
