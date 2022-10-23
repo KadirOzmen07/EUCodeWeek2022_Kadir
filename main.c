@@ -30,9 +30,9 @@ int main()
        gecicisayi2=gecicisayi2-(gecicisayi*pow(10,usler));
        gecicisayi=gecicisayi2;}
        if(toplam==sayi)
-        printf("Armstrong sayıdır")
+        printf("Armstrong sayÄ±dÄ±r");
         else
-        printf("armstrong sayı değildir")
+        printf("armstrong sayÄ± deÄŸildir");
     return 0;
 }
 
